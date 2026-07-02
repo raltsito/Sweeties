@@ -6,16 +6,15 @@ Sitio demo autocontenido (una sola página, todo embebido). No requiere build ni
 
 **Opción rápida (drag & drop):**
 1. Entra a https://vercel.com/new
-2. Arrastra esta carpeta `deploy/` completa.
+2. Arrastra esta carpeta completa.
 3. Deploy. Listo — Vercel sirve `index.html` en la raíz automáticamente.
 
 **Con CLI:**
 ```bash
-cd deploy
 npx vercel --prod
 ```
 
-**Desde GitHub:** sube esta carpeta a un repo y conéctalo en Vercel. No hay que configurar framework (es un sitio estático) ni comando de build.
+**Desde GitHub:** conecta este repo en Vercel. No hay que configurar framework (es un sitio estático), Root Directory (déjalo en blanco/raíz) ni comando de build.
 
 ## Notas
 - El carrito, filtros y selector Pickup/Delivery funcionan del lado del cliente (demo, sin pagos).
